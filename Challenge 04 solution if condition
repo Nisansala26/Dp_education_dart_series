@@ -1,0 +1,23 @@
+
+//challenge 04 part 01
+
+void main(){
+
+  bool isWeekend =false;
+  String weather = "Rainy";
+
+ 
+    if(isWeekend == true){
+      
+      if(weather =="sunny"){
+        print("sunny");
+      }
+      if(weather == "Rainy"){
+        print("Rainy");
+      }
+      }
+   if(isWeekend == false){
+     print("not a week end ");
+   }
+  
+    }
