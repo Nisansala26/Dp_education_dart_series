@@ -1,0 +1,21 @@
+// challenge 2
+//create a program that converts the user entered fahrenheit temperature in to celsius.
+
+
+void main(){
+
+ 
+  
+  double F = 0;
+  double C = 0;
+  
+  C=(F-32)*5/9;
+  
+  print("Celcius value of $F is ${C.toStringAsFixed(3)}  ");
+  
+  
+  
+  
+  
+  
+}
