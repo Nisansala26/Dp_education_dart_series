@@ -1,0 +1,20 @@
+//challenge  06 
+
+void main (){
+ 
+  bool isSunny =true;
+  bool hasUmbrella = true;
+  String day ="Sunday";
+  
+  
+  //&& - both   || - one of them
+  if ((isSunny==true && hasUmbrella==false) || (day =="Sunday")){
+   //if((isSunny && !hasUmbrella) || (day == "Sunday")) 
+    
+    print("Enjoy the day outdoors!");
+  }else{
+    print("Be prepared  for the  weather.");
+  }
+  
+
+}
