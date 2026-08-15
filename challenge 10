@@ -1,0 +1,65 @@
+
+//challenge 10
+void main(){
+
+ int numberOfDay = 03;
+  
+  switch(numberOfDay){
+    case 01:
+      print("Monday");
+      break;
+      
+    case 02:
+      print("Tuesday");
+      break;
+      
+    case 03:  
+      print("wednesday");
+      break;
+      
+     case 04:
+      print("thurseday");
+      break;
+      
+    case 05:
+      print("Friday");
+      break;
+      
+    case 06:
+      print("saturday");
+      break;
+      
+    case 07:
+      print("saturday");
+      break;
+      
+    default:
+      print("invalid input");
+    
+        
+  }
+  
+  
+  print(" -----------------------------------------------");
+  
+  String today="Monday";
+  
+  switch (today){
+    case "Monday":
+    case "Tuesday":
+    case "Wednesday":
+    case "Thursday":
+    case "Friday":
+      print("Today is week day");
+      break;
+    case "Saturday":
+    case "Sunday":
+      print("Today is weekend");
+      break;
+  
+       default:
+  print("invalid");
+  
+  }
+ 
+}
