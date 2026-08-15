@@ -1,0 +1,15 @@
+//challenge 09
+
+void main() {
+  int age = 23;
+  bool hasPermission = age >= 18;
+  String day = "Friday";
+  bool isAdult = true;
+  //conditions
+
+  String result = (isAdult && hasPermission) || (isAdult && day == "Friday")
+      ? "Allow the person"
+      : "This person has no permission";
+
+  print(result);
+}
