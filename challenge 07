@@ -1,0 +1,16 @@
+//challenge 07
+void main(){
+  
+  int age=17;
+  bool hasPermission = true;
+  String day = "Sunday";
+  
+  bool isAdult = age >=18;
+  if ((isAdult && hasPermission ) || (day=="Friday" && isAdult)){
+    print("The person is allowed to enter");
+    
+  }else{
+    print("The person is not allowed to enter");
+  }
+  
+}
