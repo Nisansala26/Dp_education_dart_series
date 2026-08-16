@@ -1,0 +1,64 @@
+//challenge 11 
+//part 1 
+
+void main() {
+Map <String, List<int>  > studentMarks={
+  "student1":[60,65,55,34,56],
+  "student2":[70,65,85,34,36],
+  "student3":[40,65,55,37,56],
+  "student4":[80,65,55,34,87],
+  
+};
+  studentMarks.forEach( (student , marks){
+    print("the student $student has marks $marks");
+  });
+  //print(studentMarks);
+  
+  
+}
+
+//part 2
+
+
+//challenge 11
+
+void main() {
+  Map<String, Map<String, int>> studentMarks = {
+    "student1": {
+      "subject1": 56,
+      "subject2": 59,
+      "subject3": 44,
+      "subject4": 42,
+      "subject5": 33,
+    },
+    "student2": {
+      "subject1": 56,
+      "subject2": 59,
+      "subject3": 44,
+      "subject4": 42,
+      "subject": 22,
+    },
+    "student3": {
+      "subject1": 56,
+      "subject2": 59,
+      "subject3": 44,
+      "subject4": 42,
+      "subject": 22,
+    },
+    "student4": {
+      "subject1": 56,
+      "subject2": 59,
+      "subject3": 44,
+      "subject4": 42,
+      "subject": 22,
+    },
+  };
+  studentMarks.forEach((student, marks) {
+    print("$student");
+    marks.forEach((subject , marks){
+      print("$subject : $marks");
+    });
+    print(" ");
+  });
+  //print(studentMarks);
+}
