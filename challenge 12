@@ -1,0 +1,40 @@
+// part 1
+void main(){
+ 
+
+  List <String> words=["apple" , "banana ", "grapefruit" , "kiwi" , "orange"];
+  int maxLength = 0;
+  for (int i=0 ; i <words.length ; i++){
+  if(maxLength <words[i].length){
+    
+    print("updated ! old: $maxLength new : ${words[i].length} ");
+    maxLength = words[i].length;
+    }else{
+    print(" not updated ! old: $maxLength new : ${words[i].length}");
+    
+  }
+  }
+  print(maxLength);
+
+
+  //part 2
+  //average lenght of all the words 
+
+  void main(){
+ 
+
+  List <String> words=["apple" , "banana ", "grapefruit" , "kiwi" , "orange"];
+ 
+  //average lenght of all the words 
+  int wordsLength = 0;
+  for (int i=0 ; i <words.length ;i++){
+    
+    wordsLength+=words[i].length;
+  }
+  double average = wordsLength / words.length;
+  print(average.toStringAsFixed(2));
+
+}
+
+  
+}
